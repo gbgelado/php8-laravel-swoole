@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "yarn development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "yarn production",
+        "production": "mix --production",
+        "prewatcher": "yarn install",
+        "watcher": "pm2 start watcher.js --no-daemon"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "chokidar": "^2.0.3",
+        "colors": "^1.2.5",
+        "is-running": "^2.1.0"
+    }
+}
