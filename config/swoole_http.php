@@ -59,7 +59,7 @@ return [
     |--------------------------------------------------------------------------
     */
     'hot_reload' => [
-        'enabled' => env('SWOOLE_HOT_RELOAD_ENABLE', true),
+        'enabled' => env('SWOOLE_HOT_RELOAD_ENABLE', false),
         'recursively' => env('SWOOLE_HOT_RELOAD_RECURSIVELY', true),
         'directory' => env('SWOOLE_HOT_RELOAD_DIRECTORY', base_path()),
         'log' => env('SWOOLE_HOT_RELOAD_LOG', true),
